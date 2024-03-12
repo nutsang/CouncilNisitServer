@@ -1,0 +1,9 @@
+{
+    "redeemItems": [
+        {"name": "ตุ๊กตาหมี", "point": 50, "amount": 0},
+        {"name": "แก้วน้ำ", "point": 10, "amount": 0},
+        {"name": "กระเป๋าผ้า", "point": 20, "amount": 0},
+        {"name": "กระเป๋าเป้", "point": 40, "amount": 0},
+        {"name": "ปากกา", "point": 2, "amount": 0}
+    ]
+}
