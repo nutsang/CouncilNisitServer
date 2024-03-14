@@ -503,7 +503,7 @@ app.post('/topUpCashCard', async(req, res) => {
                         const jsonData = JSON.parse(data); // แปลงข้อมูล JSON จาก string เป็น object
                         
                         // อัปเดตข้อมูลใน JSON
-                        jsonData.cash += cash; // ลดจำนวนเงินในบัญชี
+                        jsonData.cash += parseInt(cash); // ลดจำนวนเงินในบัญชี
     
                         // แปลงข้อมูล JSON กลับเป็น string
                         const updatedData = JSON.stringify(jsonData);
